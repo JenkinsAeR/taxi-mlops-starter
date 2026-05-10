@@ -1,0 +1,67 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# MLflow local tracking
+mlruns/
+mlartifacts/
+
+# Generated data
+data/raw/
+data/processed/
+.venv/
+data/raw/
+data/processed/
+models/
+mlruns/
+mlartifacts/
+__pycache__/
+.env
+
+# Trained models
+models/
+*.joblib
+*.pkl
+*.pickle
+
+# Logs
+*.log
+
+# Test and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cover/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Build/package artifacts
+build/
+dist/
+*.egg-info/
+
+# Docker / local compose overrides
+compose.override.yaml
+docker-compose.override.yml
