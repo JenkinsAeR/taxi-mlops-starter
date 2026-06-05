@@ -1,7 +1,7 @@
 [project]
 name = "taxi-mlops-starter"
 version = "0.1.0"
-description = "Минимальный стартовый проект MLOps для прогнозирования стоимости проезда в такси."
+description = "Minimal MLOps starter project for taxi fare prediction."
 requires-python = ">=3.11"
 dependencies = [
     "pandas",

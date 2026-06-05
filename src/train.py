@@ -52,7 +52,7 @@ with mlflow.start_run():
     mlflow.log_metric("mse", mse)
 
     joblib.dump(model, "models/model.joblib")
-    mlflow.sklearn.log_model(model, "model")
+    mlflow.sklearn.log_model(sk_model=model, name="model")
 
 print("Model saved to models/model.joblib")
 print(f"MAE: {mae:.3f}")

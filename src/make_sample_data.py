@@ -2,6 +2,8 @@ import pandas as pd
 import random
 from pathlib import Path
 
+random.seed(42)
+
 Path("data/raw").mkdir(parents=True, exist_ok=True)
 
 rows = []
